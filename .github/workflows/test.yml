@@ -4,7 +4,7 @@ on:
     inputs: {}
 
 jobs:
-  test:
+  upload_download_delete:
     - name: Create artifact file
       run: |
         echo "just nothing" > file1.txt
