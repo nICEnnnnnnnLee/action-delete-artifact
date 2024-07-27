@@ -1,0 +1,36 @@
+{
+  "name": "action-delete-artifact",
+  "version": "0.0.1",
+  "description": "Delete an Actions Artifact in a workflow run",
+  "main": "dist/index.js",
+  "scripts": {
+    "release": "ncc build index.js -o dist"
+  },
+  "author": "nICEnnnnnnnLee",
+  "homepage": "https://git.nicelee.top/nICEnnnnnnnLee/action-delete-artifact",
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.nicelee.top/nICEnnnnnnnLee/action-delete-artifact.git"
+  },
+  "bugs": {
+    "url": "https://git.nicelee.top/nICEnnnnnnnLee/action-delete-artifact/issues"
+  },
+  "keywords": [
+    "GitHub",
+    "Actions",
+    "Artifacts",
+    "Delete"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@actions/artifact": "^2.1.8",
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.1"
+  }
+}

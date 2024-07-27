@@ -1,0 +1,13 @@
+name: 'action-delete-artifact'
+description: 'Delete an Actions Artifact in a workflow run'
+inputs:
+  artifactName:
+    description: 'The artifact name you want to delete'
+    required: true
+    default: 'artifact'
+outputs:
+  time: # id of output
+    description: 'test'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
