@@ -23,6 +23,10 @@ jobs:
         name: 'test_file'
         path: some/new/path
         
+    - uses: actions/checkout@v4
+      with:
+        ref: ${{ github.event.ref }}
+        
     - name: Delete artifact
       uses: ./
       with:
