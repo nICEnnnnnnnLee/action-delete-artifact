@@ -30,4 +30,4 @@ jobs:
     - name: Delete artifact
       uses: ./
       with:
-        name: 'test_file'
+        artifactName: 'test_file'
